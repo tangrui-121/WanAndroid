@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/transparent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/widget_layout_head"
+            android:layout_width="fill_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/common_dialog_up_colorprimary"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/widget_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="温馨提示"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/widget_layout_content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/widget_contentTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="17dp"
+                android:text=""
+                android:textColor="#888888"
+                android:textSize="16sp"
+                android:visibility="visible" />
+
+            <ListView
+                android:id="@+id/widget_contentListView"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_marginTop="4dip"
+                android:divider="#d5d5d5"
+                android:dividerHeight="1px"
+                android:gravity="center"
+                android:listSelector="@color/transparent"
+                android:padding="2dip"
+                android:scrollbars="none"
+                android:visibility="gone" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"
+                android:background="@color/gray_1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/widget_layout_bottom"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/my_common_dialog_btn_sure_normal"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/widget_cancel"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/common_dialog_btn_left"
+                android:text="@string/cancel"
+                android:textColor="?attr/colorPrimary" />
+
+            <View
+                android:id="@+id/line2"
+                android:layout_width="2px"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="7dp"
+                android:background="@color/gray_1" />
+
+            <Button
+                android:id="@+id/widget_ok"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/common_dialog_btn_right"
+                android:text="@string/ok"
+                android:textColor="?attr/colorPrimary" />
+
+            <Button
+                android:id="@+id/widget_sure"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/common_dialog_btn_sure"
+                android:text="@string/ok"
+                android:textColor="?attr/colorPrimary"
+                android:visibility="gone" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

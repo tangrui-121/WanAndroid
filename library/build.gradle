@@ -1,0 +1,62 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 26
+    defaultConfig {
+        minSdkVersion 21
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation 'com.android.support.constraint:constraint-layout:1.1.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'com.trello.rxlifecycle2:rxlifecycle:2.2.1'
+    compile 'com.trello.rxlifecycle2:rxlifecycle-android:2.2.1'
+    compile 'com.trello.rxlifecycle2:rxlifecycle-components:2.2.1'
+    compile 'com.scwang.smartrefresh:SmartRefreshLayout:1.0.4'
+    compile 'com.scwang.smartrefresh:SmartRefreshHeader:1.0.4'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.4.0'
+    compile 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.34'
+    compile 'com.jakewharton:butterknife:8.4.0'
+    compile "com.youth.banner:banner:1.4.10"
+    compile 'org.greenrobot:greendao:3.2.0'
+    compile "com.hyman:flowlayout-lib:1.1.2"
+    compile 'com.airbnb.android:lottie:1.0.1'
+    compile 'com.zhy:okhttputils:2.0.0'
+    compile 'com.squareup.retrofit2:retrofit:2.0.0-beta4'
+    compile 'org.greenrobot:eventbus:3.0.0'
+    compile 'com.blankj:utilcode:1.9.6'
+    compile rootProject.ext.dependencies.bottomnavigation
+    compile rootProject.ext.dependencies.circleimageview
+    compile rootProject.ext.dependencies.appcompat
+    compile rootProject.ext.dependencies.design
+    compile rootProject.ext.dependencies.nohttp
+    compile rootProject.ext.dependencies.okhttp
+    compile rootProject.ext.dependencies.fastjson
+    compile rootProject.ext.dependencies.recyclerview
+    compile rootProject.ext.dependencies.cardview
+    compile rootProject.ext.dependencies["retrofit2"]
+    compile rootProject.ext.dependencies["converter-scalars"]
+    compile rootProject.ext.dependencies["converter-gson"]
+    compile rootProject.ext.dependencies["adapter-rxjava2"]
+    compile rootProject.ext.dependencies.taglayout
+}

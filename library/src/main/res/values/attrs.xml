@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="backColor" format="color" />
+    <attr name="backColorPress" format="color" />
+    <attr name="backGroundImage" format="reference" />
+    <attr name="backGroundImagePress" format="reference" />
+    <attr name="iconDrawable" format="reference" />
+    <attr name="iconDrawablePress" format="reference" />
+    <attr name="textColor" format="color" />
+    <attr name="textColorPress" format="color" />
+    <attr name="text" format="string" />
+    <attr name="textSize" format="float" />
+
+    <declare-styleable name="buttonM">
+        <attr name="backColor" />
+        <attr name="backColorPress" />
+        <attr name="backGroundImage" />
+        <attr name="backGroundImagePress" />
+        <attr name="textColor" />
+        <attr name="textColorPress" />
+        <attr name="fillet" format="boolean" />
+        <attr name="radius" format="float" />
+        <attr name="shape">
+            <enum name="rectangle" value="0" />
+            <enum name="oval" value="1" />
+            <enum name="line" value="2" />
+            <enum name="ring" value="3" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="buttonExtendM">
+        <attr name="backColor" />
+        <attr name="backColorPress" />
+        <attr name="textColor" />
+        <attr name="textColorPress" />
+        <attr name="iconDrawable" />
+        <attr name="iconDrawablePress" />
+        <attr name="text" />
+        <attr name="textSize" />
+        <attr name="spacing" format="dimension" />
+        <attr name="style">
+            <enum name="iconLeft" value="0" />
+            <enum name="iconRight" value="1" />
+            <enum name="iconUp" value="2" />
+            <enum name="iconBottom" value="3" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="menuItemM">
+        <attr name="backColor" />
+        <attr name="textColor" />
+        <attr name="textColorPress" />
+        <attr name="iconDrawable" />
+        <attr name="iconDrawablePress" />
+        <attr name="text" />
+        <attr name="textSize" />
+        <attr name="unReadCount" format="integer" />
+        <attr name="visibleMore">
+            <enum name="visible" value="0x00000000" />
+            <enum name="gone" value="0x00000008" />
+        </attr>
+        <attr name="visibleNew">
+            <enum name="visible" value="0x00000000" />
+            <enum name="gone" value="0x00000008" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="menuM">
+        <attr name="backColor" />
+        <attr name="textColor" />
+        <attr name="textColorPress" />
+        <attr name="textSize" />
+        <attr name="count" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="bannerM">
+        <attr name="defaultImageDrawable" format="reference" />
+        <attr name="intervalTime" format="integer" />
+        <attr name="indexPosition">
+            <enum name="right" value="0x100" />
+            <enum name="bottom" value="0x101" />
+        </attr>
+        <attr name="indexColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="countDownM">
+        <attr name="backColor" />
+        <attr name="countDownSeconds" format="integer"/>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_collect"
+        android:icon="@mipmap/icon_collect"
+        android:orderInCategory="80"
+        android:title=""
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_browser"
+        android:icon="@mipmap/icon_browser"
+        android:orderInCategory="80"
+        android:title="@string/icon_browser"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_share"
+        android:icon="@mipmap/icon_share"
+        android:orderInCategory="81"
+        android:title="@string/icon_share" />
+</menu>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/sideslip_wanandroid"
+        android:icon="@mipmap/leftmenu_android"
+        android:title="玩Android" />
+    <item
+        android:id="@+id/sideslip_collect"
+        android:icon="@mipmap/leftmenu_collect"
+        android:title="收藏" />
+    <item
+        android:id="@+id/sideslip_aboutus"
+        android:icon="@mipmap/leftmenu_aboutus"
+        android:title="关于我们" />
+    <item
+        android:id="@+id/sideslip_set"
+        android:icon="@mipmap/leftmenu_set"
+        android:title="设置" />
+    <item
+        android:id="@+id/sideslip_signout"
+        android:icon="@mipmap/leftmenu_signout"
+        android:title="退出登录" />
+</menu>

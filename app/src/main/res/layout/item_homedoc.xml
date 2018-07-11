@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/dp_8"
+    android:layout_marginLeft="@dimen/dp_2"
+    android:layout_marginRight="@dimen/dp_2"
+    android:layout_marginTop="@dimen/dp_8"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    app:cardBackgroundColor="@color/colorCard"
+    app:cardCornerRadius="@dimen/dp_3"
+    app:cardElevation="@dimen/dp_2">
+
+    //下面的阴影效果
+    <!--android:background="@drawable/common_list_bg"-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/dp_12">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/doc_authorimg"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@mipmap/dilireba" />
+
+            <TextView
+                android:id="@+id/doc_author"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="7dp"
+                android:layout_toRightOf="@+id/doc_authorimg"
+                android:gravity="center_vertical"
+                android:text="me"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:id="@+id/doc_timeimg"
+                    android:layout_width="23dp"
+                    android:layout_height="23dp"
+                    android:layout_marginRight="5dp"
+                    android:src="@mipmap/doc_time" />
+
+                <TextView
+                    android:id="@+id/doc_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="now"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/doc_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:text="你好啊"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp">
+
+            <TextView
+                android:id="@+id/doc_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:gravity="center_vertical"
+                android:text="me"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/doc_zan"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:src="@mipmap/no_zan" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>

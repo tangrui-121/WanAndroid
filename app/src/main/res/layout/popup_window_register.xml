@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="400dp"
+    android:background="@mipmap/register_bg"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/register_account_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_account"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="85dp"
+        android:background="@drawable/login_edit_bg"
+        android:drawableLeft="@mipmap/login_account"
+        android:drawablePadding="15dp"
+        android:hint="account"
+        android:padding="5dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textCursorDrawable="@null"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/register_password_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/register_account_edit"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/login_edit_bg"
+        android:drawableLeft="@mipmap/login_password"
+        android:drawablePadding="15dp"
+        android:hint="password"
+        android:padding="5dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textCursorDrawable="@null"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/register_re_password_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/register_password_edit"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/login_edit_bg"
+        android:drawableLeft="@mipmap/login_password"
+        android:drawablePadding="15dp"
+        android:hint="re password"
+        android:padding="5dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textCursorDrawable="@null"
+        android:textSize="18sp" />
+
+
+    <Button
+        android:id="@+id/register_btn"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/register_re_password_edit"
+        android:layout_marginBottom="36dp"
+        android:layout_marginEnd="@dimen/dp_45"
+        android:padding="7dp"
+        android:layout_marginStart="@dimen/dp_45"
+        android:layout_marginTop="@dimen/dp_12"
+        android:background="@drawable/login_signup_bg"
+        android:gravity="center"
+        android:text="@string/register"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp_18" />
+</RelativeLayout>

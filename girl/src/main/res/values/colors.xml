@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00abff</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="content">#EFEFEF</color>
+    <color name="contentPress">#D9D9D9</color>
+    <color name="text">#696969</color>
+    <color name="line">#EDEDED</color>
+    <color name="mainColor">#FF3333</color>
+    <color name="mainColorPress">#FF3300</color>
+    <color name="loading_bg">#ff636363</color>
+
+    <color name="black">#FF000000</color>
+    <color name="black_light">#FF666666</color>
+    <color name="gray">#FF888888</color>
+    <color name="gray_1">#d5d5d5</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorCard">#FFFFFF</color>
+    <color name="red">#FFFF0000</color>
+    <color name="green">#FF00FF00</color>
+    <color name="green_gray">#32CD32</color>
+    <color name="qingse">#7bc228</color>
+    <color name="blue">#FF0000FF</color>
+    <color name="yellow">#FFFFFF00</color>
+    <color name="orange">#FFFFA500</color>
+    <color name="orange_1">#e4751c</color>
+    <color name="purple">#FFA020F0</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparent_half_1">#10000000</color>
+    <color name="transparent_half_2">#20000000</color>
+    <drawable name="transparent">#00000000</drawable>
+    <color name="activity_bg">#f8f8f8</color>
+    <color name="tab_txt_color">#0078d7</color>
+    <color name="navigation_bg">#e5e5e5</color>
+    <color name="navigation_text_bg">#009587</color>
+    <color name="shallow_grey">#FF757575</color>
+    <color name="comment_line">#dddddd</color>
+    <color name="deep_grey">#e6e6e6</color>
+    <color name="while_most_color">#e4e4e4</color>
+    <color name="colorBackground">#EEEEEE</color>
+    <color name="login_yellow">#7Fe4c522</color>
+    <color name="login_black">#7F111111</color>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    style="@style/WrapContent.WidthMatchParent.LinearLayoutItem">
+    <TextView
+        android:id="@+id/spanner_name"
+        style="@style/CommontTitleTextBlack"
+        android:textColor="@color/gray"
+        android:textSize="@dimen/sp_14"
+        android:text="item1"/>
+</LinearLayout>
