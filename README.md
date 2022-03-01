@@ -5,5 +5,5 @@ WanAndroid
 
 ### java
 
-### 架子有点老了 ： MVP + OKHTTP + RETROFIT
+### MVP + OKHTTP + RETROFIT
 
